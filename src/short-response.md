@@ -17,7 +17,19 @@ What are the core principles of encapsulation in object-oriented programming?
 
 ### Response 1
 
-Your response here...
+the core principals of encapsulation are as follows:
+
+Bundling data.
+
+Restricted access to data.
+
+#### seperation of concern
+
+Seperation of concern refers to isolation of data and functions with regard to their context.
+
+#### bundled data and methods
+
+Encapsulation, with regard to objects refers to bundling methods of the objects context within the object as a way of maintaining organization and protecting or really, restricting, access.
 
 ---
 
@@ -39,7 +51,9 @@ First, define what a **closure** is in your own words and then explain how this 
 
 ### Response 2
 
-Your response here...
+A closure refers to locking off or *closing* access to a variable outside its domain of context, for example in the `multiplynumsby` function multiplier gets **closed** off through us passing it in our callback.
+
+That way multiplier can only be used in the context its needed.
 
 ---
 
@@ -76,4 +90,10 @@ Finally, update the code snippet above to fix it.
 
 ### Response 3
 
-Your response here...
+If i am an object `this` is me, `this` refers to the context or block in which we are in. Through `this` we can access attributes predefined in the `this` context (like in global) or attributes we define in the `this` context of lets say, an object.
+
+- The function doesnt work for several reasons i will list them:
+
+- unnecessary colon when defining function
+
+- arrow function syntax obstructs this context in the object
